@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.login__container {
+  background: white;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 360px;
+  box-shadow: 1px 0px 12px 2px #ddd;
+  overflow: hidden;
+}
+.login__image {
+  background: #888;
+  height: 200px;
+  width: 100%;
+}
+
+.tr-button {
+  background-color: #976519;
+  border-radius: 10px;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+}
+.tr-button--secondary {
+  background-color: white;
+  border: 1px solid #976519;
+}
+.tr-button--secondary .tr-button__text {
+  color: #976519;
+}
+.tr-button__text {
+  color: white;
+}
+
+.petSelectCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  margin: auto;
+  background-color: white;
+  padding: 0px 20px 0px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.petSelectCard__header {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 0.1;
+}
+.petSelectCard__paraBreed {
+  font-size: 16px;
+  font-weight: bold;
+}
+.petSelectCard__para {
+  font-size: 12px;
+  padding-right: 10px;
+}
+.petSelectCard__image {
+  width: 75px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.barbody {
+  width: 341px;
+  height: 43px;
+  border: 1px solid rgb(199, 186, 186);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.barbody__text {
+  margin-bottom: 12px;
+}
+.barbody__bar {
+  width: 335px;
+  height: 12px;
+  background-color: rgb(184, 188, 187);
+  margin-left: 0px;
+  border-radius: 30px;
+}
+.barbody__bar__in {
+  background-color: green;
+  border-radius: 30px;
+  height: 12px;
+  width: 100px;
+}
+
+.petprofile {
+  width: 373px;
+  height: 116px;
+  border: 1px solid rgb(238, 224, 224);
+}
+.petprofile__data {
+  width: 348px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 17px;
+  font-size: 14px;
+}
+.petprofile__data__d1 {
+  width: 108px;
+  height: auto;
+}
+.petprofile__data__d1 .da-in {
+  border-left: 4px solid green;
+  font-size: 12;
+  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  width: 105px;
+  height: 22px;
+}
+.petprofile__text {
+  width: 313px;
+  height: 46;
+  margin-left: 17px;
+  margin-top: 10px;
+  font-family: roboto;
+  font-size: 12px;
+}
+.petprofile__text__span {
+  color: 0;
+  font-size: 14px;
+}
+
+.address {
+  width: 354px;
+  height: 60px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.address__imageBox {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.address__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.address__text {
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  margin-left: 12px;
+}
+
+.dogcard {
+  width: 173px;
+  height: 76px;
+  background-color: #FFE8CF;
+  border-radius: 18px;
+}
+.dogcard__custom-image {
+  width: 76px;
+  height: 76px;
+  margin-right: 15px;
+  margin-left: 13px;
+}
+.dogcard__col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dogcard__dog-toys {
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+  margin-right: 20px;
+}
+
+.petName {
+  width: 354px;
+  height: 60px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.petName__imageBox {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.petName__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.petName__logo img {
+  width: 18px;
+  height: 18px;
+}
+.petName__text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  margin-bottom: 8px;
+}
+.petName__names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  margin-bottom: 8px;
+}
+.petName__label {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.petName__abName {
+  background-color: #147A51;
+  border-radius: 50px;
+  font-size: 12px;
+  font-style: bold;
+  width: 44px;
+  height: 25px;
+  margin-right: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  width: 347px;
+  height: 39px;
+}
+.search__container {
+  position: relative;
+}
+.search__icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18.39x;
+  height: 18.21px;
+  padding-left: 21px;
+}
+.search__input {
+  padding-left: 55.39px;
+  background-color: #F2F3F2;
+  width: 347px;
+  height: 39px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #7C7C7C;
+  border-radius: 15px;
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.search {
+  width: 100%;
+  height: 39px;
+  margin: auto;
+  padding-bottom: 17px;
+}
+.search__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search__icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18.39x;
+  height: 18.21px;
+  padding-left: 21px;
+}
+.search__input {
+  background-color: #F2F3F2;
+  width: 100%;
+  height: 39px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #7C7C7C;
+  border-radius: 15px;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column-reverse;
+  font-family: "Quicksand", sans-serif;
+  width: 350px;
+  height: 180px;
+  color: white;
+  border-radius: 10px;
+  margin: auto;
+}
+.card__insedtext {
+  padding: 10px;
+  line-height: 0;
+  background: linear-gradient(to bottom, rgba(187, 184, 184, 0), rgba(0, 0, 0, 0.7450980392));
+  border-radius: 10px;
+}
+.card__mainp1 {
+  font: bold 0.75rem/1 sans-serif;
+}
+.card__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.card__type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 12px;
+}
+.card__svg {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+.card__money {
+  font-size: 14px;
+}
+.card__money_p span {
+  font-weight: bold;
+}
+
+.trandingCard__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: normal 1.5rem/"Quicksand", sans-serif;
+  line-height: 0.5;
+}
+.trandingCard__text p {
+  color: #147A51;
+}
+.trandingCard__cards {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.home__trending__shop {
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+}
+.home__trending__shop__i {
+  display: flex;
+  width: 173.32px;
+  height: 178px;
+  margin-bottom: 2px;
+}
+.home__trending__shop__text {
+  display: flex;
+  margin-top: 2px;
+  align-items: left;
+  justify-content: left;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 1.5px;
+}
+.home__trending__shop__text2 {
+  display: felx;
+  align-items: left;
+  justify-content: left;
+  padding-left: 1.5px;
+  padding-top: 12px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #976519;
+}
+
+.petCard__hedingText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.petCard__hedingText h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: normal 1.5rem/"Quicksand", sans-serif;
+}
+.petCard__hedingText p {
+  padding-top: 10px;
+  color: #147A51;
+}
+.petCard__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  overflow: auto;
+}
+
+.dogcard {
+  width: 173px;
+  height: 76px;
+  margin-right: 10px;
+  background-color: #FFE8CF;
+  border-radius: 18px;
+}
+.dogcard__custom-image {
+  width: 76px;
+  height: 76px;
+  margin-right: 15px;
+  margin-left: 13px;
+}
+.dogcard__col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dogcard__dog-toys {
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+  margin-right: 20px;
+}
+
+.navigation {
+  position: fixed;
+  top: 93vh;
+  width: 100%;
+  background-color: white;
+  padding-top: 10px;
+}
+.navigation__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+.navigation__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.1;
+}
+.navigation__menu img {
+  width: 24px;
+  height: 24px;
+}
+
+/*# sourceMappingURL=styles.css.map */

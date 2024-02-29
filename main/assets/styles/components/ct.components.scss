@@ -1,0 +1,169 @@
+
+.address{
+    width: 354px;
+    height: 60px;
+    display: flex;
+  
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+    &__imageBox{
+      display: flex;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      background-color: black;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  
+    &__logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    &__text{
+      display: flex;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 12px;
+      justify-content: center;
+      align-items: center;
+      line-height: 1.5;
+      margin-left: 12px;
+    }
+  }
+
+  .dogcard{
+    width: 173px;
+    height: 76px;
+    background-color: $dog-card;
+    border-radius: 18px;
+
+    &__custom-image{
+        width: 76px;
+        height: 76px;
+        margin-right: 15px;
+        margin-left: 13px;
+    }
+
+    &__col-md-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    &__dog-toys {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 17px;
+        margin-right: 20px;
+      }
+  
+  }
+  .petName {
+    width: 354px;
+    height: 60px;
+    display: flex;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+    &__imageBox {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        background-color: black;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img {
+            width: 18px;
+            height: 18px; 
+        }
+    }
+
+    &__text {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 12px;
+        margin-bottom: 8px;
+        
+
+    }
+
+    &__names{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        color:white;
+        margin-bottom: 8px;
+      }
+    
+      &__label{
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 4px;
+      }
+    
+      &__abName{
+        background-color: #147A51;
+        border-radius: 50px;
+        font-size: 12px;
+        font-style: bold;
+        width: 44px;
+        height: 25px;
+        margin-right:6px ;
+        margin-bottom: 8px;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+      }
+}
+
+
+.search {
+    width: 347px;
+    height: 39px;
+
+
+&__container {
+    position: relative;
+}
+
+&__icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18.39x;
+    height: 18.21px;
+    padding-left: 21px;
+}
+
+&__input {
+    padding-left: 55.39px;
+    background-color: #F2F3F2;
+    width: 347px;
+    height: 39px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #7C7C7C;
+    border-radius: 15px;
+}
+}
+
+
+
+
+

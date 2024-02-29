@@ -1,0 +1,28 @@
+
+//settings
+@import "./settings/colors.settings.scss"; 
+@import "./settings/text.settings.scss"; 
+
+//tools
+@import "./tool/mixins.tools.scss"; 
+
+
+//generic
+@import "./page/login.page.scss"; 
+
+
+//elements
+@import "./elements/button.element.scss";
+
+//components
+@import "./components/petcard.components.scss";
+@import "./components/ck.components.scss";
+//@import "./components/cr.components.scss";
+// @import "./components/cm.components.scss";
+// @import "./components/ct.components.scss";
+
+//Pages
+@import "./page/hero.page.scss";
+ //styling for pet profile 
+
+//@import "./page/pet-profile-k.page.scss"

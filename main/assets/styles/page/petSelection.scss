@@ -1,0 +1,19 @@
+.backBtn{
+    padding-top: 20px;
+}
+
+
+.petSelectHead{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+
+    &__headingText{
+        font-size: $heding1-text;
+    }
+
+}
+
+.petCard{
+    margin-bottom: 42px;
+}

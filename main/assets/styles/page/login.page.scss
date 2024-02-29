@@ -1,0 +1,15 @@
+.login{
+    &__container {
+        background: white;
+        border-radius: 4px;
+        width: 100%;
+        max-width: 360px;
+        box-shadow: 1px 0px 12px 2px #ddd;
+        overflow: hidden;
+    } 
+    &__image {
+        background: #888;
+        height: 200px;
+        width: 100%;
+    }
+}
